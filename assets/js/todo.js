@@ -3,7 +3,13 @@ $('li').click(function(){
   $(this).toggleClass("completed");
 });
 
-//click on X to delete
+//click on X to delete items
+$('span').click(function(e){
+$(this).parent().fadeOut(700,function(){
+  $(this).remove();
+});
+  e.stopPropagation();//prevents bubbling
+});
 
 
 
