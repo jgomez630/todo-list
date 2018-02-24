@@ -5,6 +5,7 @@ $('li').click(function(){
 
 //click on X to delete
 
+var date = new Date();
 
 
 /*
@@ -18,7 +19,7 @@ $("li").click(function(){
 /*
 $("li").click(function(){
 //console.log($(this).css('color'));
-  
+
   if($(this).css('color') === 'rgb(128, 128, 128)'){
      $(this).css({
      color: "black",
@@ -32,4 +33,3 @@ $("li").click(function(){
 }
 });
 */
-
